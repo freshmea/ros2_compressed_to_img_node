@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
                 'imgtransfer = imgtran.image_transfer:main',
+                'followwaypoint = imgtran.followwaypoint:main',
         ],
     },
 )
