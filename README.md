@@ -6,6 +6,8 @@ compressed image topic to image massage node
 * https://github.com/christianrauch/raspicam2_node  여기에서 
  raspicam2_Node 를 터틀봇에 설치 하고 발행 되는 compressed topic 을 핫스팟으로 
  받은 다음에 
+* raspicam dev/video0 가 생기지 않는다면 https://www.codetd.com/en/article/12943496
+ 여기에서 추천해주는 순서대로 실행. 
 * https://github.com/pal-robotics/aruco_ros 여기에서 ar-marker 인식 프로그램을 
  받아서 노트북에서 실행 시키면 서로 연결이 안된다. 
 * aruco 에서는 compressed image 를 받지 않는데, 터틀봇에서 raw 이미지를 전송하면 속도가
