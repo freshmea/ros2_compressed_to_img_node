@@ -20,6 +20,7 @@ class ImageTransffer(Node):
 
     def listener_callback(self, data):
         self.frame = self.br.compressed_imgmsg_to_cv2(data)
+        self.frame = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
         self.frame = self.br.cv2_to_imgmsg(self.frame)
         self.publisher_.publish(self.frame)
 
